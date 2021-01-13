@@ -1,4 +1,4 @@
-# Vscode Extension
+## Vscode Extension
 - [x] gitignore</br>
 - [x] eslint</br>
 - [x] prettier</br>
@@ -14,3 +14,7 @@
     "explorer.compactFolders": false
 }
 ```
+
+## File Structure
+[here](https://github.com/microsoft/TypeScript-Node-Starter)
+

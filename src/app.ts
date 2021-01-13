@@ -1,5 +1,11 @@
-const a = {}; let b ={}
+import express from 'express'; // express 불러오기
 
-console.log();
+const app = express();
 
-var c = []
+app.get('/', (req, res) => {
+    res.send('hi!!');
+});
+
+app.listen(1234, () => {
+    console.log('1234 서버 열림');
+});
